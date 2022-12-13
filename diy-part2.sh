@@ -27,4 +27,5 @@ echo srv-host=_vlmcs._tcp.lan,OpenWrt.lan,1688,0,100 >> package/network/services
 sed -i 's/root::0:0:99999:7:::/root:$1$kWRCl0Y2$7JL\/jLAF1xoVIiIMdTO5f.:16788:0:99999:7:::/g' package/base-files/files/etc/shadow
 
 # Remove all the packages with M option
-sed -i 's/^[^#].*=m/#\ &/g' .config
+sed -i 's/^[^#].*=m*/#\ &/g' .config
+sed -i 's/=m/ is not set/g' .config
