@@ -1,4 +1,4 @@
-name: Build OpenWrt Docker x86-64 image
+name: Build OpenWrt Docker x86-64 image.
 
 on:
   push:
