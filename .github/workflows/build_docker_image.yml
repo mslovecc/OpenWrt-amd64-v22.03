@@ -8,7 +8,7 @@ on:
       - ".github/workflows/build.yml"
 
 env:
-  FIRMWARE_URL: "https://github.com/mslovecc/openwrt-amd64-v23.05/releases/download/2024.05.20-1651/openwrt-23.05.2-x86-64-generic-rootfs.tar.gzz"
+  FIRMWARE_URL: "https://github.com/mslovecc/openwrt-amd64-v23.05/releases/download/2024.05.20-1651/openwrt-23.05.2-x86-64-generic-rootfs.tar.gz"
   REPOSITORY: mslovecc/openwrt-amd64
   TAG: 23.05.2
 
